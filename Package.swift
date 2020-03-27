@@ -12,7 +12,9 @@ let package = Package(
         .target(
             name: "WootricSDK",
             dependencies: [],
-            path: "WootricSDK/WootricSDK"
+            path: "WootricSDK/WootricSDK",
+            sources: ["*.h", "*.m", *.swift],
+            publicHeadersPath: "include"
         )
     ]
 )
