@@ -12,8 +12,7 @@ let package = Package(
         .target(
             name: "WootricSDK",
             dependencies: [],
-            path: "WootricSDK/WootricSDK",
-            publicHeadersPath: "WootricSDK/WootricSDK"
+            path: "WootricSDK/WootricSDK"
         )
     ]
 )
