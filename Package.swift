@@ -13,8 +13,7 @@ let package = Package(
             name: "WootricSDK",
             dependencies: [],
             path: "WootricSDK/WootricSDK",
-            sources: ["*.h", "*.m", "*.swift"],
-            publicHeadersPath: "include"
+            publicHeadersPath: "WootricSDK/WootricSDK"
         )
     ]
 )
